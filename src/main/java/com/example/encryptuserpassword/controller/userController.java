@@ -17,6 +17,7 @@ import java.util.Optional;
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class userController {
         UserRepository userRepository;
+        //para instanciar o encoder eu criei o bean na main
         PasswordEncoder encoder;
 
         @GetMapping
